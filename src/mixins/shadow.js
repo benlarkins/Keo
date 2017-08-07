@@ -1,6 +1,5 @@
 import { get as fetch } from 'axios';
-import React, { Component, createElement, DOM } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component, PropTypes, createElement, DOM } from 'react';
 import { render, findDOMNode } from 'react-dom';
 import { dissoc } from 'ramda';
 
